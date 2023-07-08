@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.imgg {
+	width: 100%;
+	height: 100vh;
+}
+
+.ball1 {
+	position: absolute;
+	top: 0;
+	animation-name: change-an;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes change-an {
+	0% {
+		left: 0;
+	}
+
+	100% {
+		left: 1400px;
+	}
+}
+
+.ball2 {
+	position: absolute;
+	animation-delay: 1s;
+	top: 115px;
+	left: 1400px;
+	animation-name: change-ani;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes change-ani {
+	0% {
+	}
+
+	100% {
+		left: 0px;
+	}
+}
+
+.ball3 {
+	position: absolute;
+	animation-delay: 3s;
+	top: 215px;
+	animation-name: change-anim;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes change-anim {
+	0% {
+		left: 0px;
+	}
+
+	100% {
+		left: 1400px;
+	}
+}
+
+.ball4 {
+	position: absolute;
+	animation-delay: 5s;
+	top: 315px;
+	left: 1400px;
+	animation-name: change-anima;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes change-anima {
+	0% {
+	}
+
+	100% {
+		left: 0px;
+	}
+}
+
+.ball5 {
+	position: absolute;
+	animation-delay: 7s;
+	top: 415px;
+	animation-name: change-animat;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes change-animat {
+	0% {
+		left: 0px;
+	}
+
+	100% {
+		left: 1400px;
+	}
+}
+
+.ball6 {
+	position: absolute;
+	animation-delay: 9s;
+	top: 515px;
+	left: 1400px;
+	animation-name: change-animati;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes change-animati {
+	0% {
+	}
+
+	100% {
+		left: 0px;
+	}
+}
